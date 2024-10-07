@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludo</title>
+  </head>
+  <style>
+    table {
+      margin: auto;
+      /* border-collapse: collapse; */
+      /* border: 1px solid black; */
+  
+    }
+    td {
+      /* border: 1px solid black; */
+
+      width: 25px;
+      height: 25px;
+    }
+    .call-image {
+      width: 125px;
+      height: 125px;
+    }
+
+    #red {
+      background-color: red;
+    }
+    #green {
+      background-color: green;
+    }
+    #blue {
+      background-color: blue;
+    }
+    #yellow {
+      background-color: yellow;
+    }
+    #center {
+      display: flex;
+      align-items: center;
+    }
+    .green-box {
+      background-color: green;
+    }
+
+    .red-box {
+      background-color: red;
+    }
+    .blue-box {
+      background-color: blue;
+    }
+    .yellow-box {
+      background-color: yellow;
+    }
+    .img-star {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <h1 style="text-align: center;">LUDO</h1>
+    <table border="1">
+      <tr>
+        <div>
+          <td colspan="6" rowspan="6" id="red" align="middle">
+            <img src="./red.jpg" alt="red-image" class="call-image" />
+          </td>
+        </div>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="6" rowspan="6" id="green" align="middle">
+          <img src="./green.jpg" alt="red-image" class="call-image" />
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="green-box"></td>
+        <td class="green-box">
+          <img src="./star.webp" alt="img-star" class="img-star" />
+        </td>
+      </tr>
+      <tr>
+        <td class="green-box">
+          <img src="./star.webp" alt="img-star" class="img-star" />
+        </td>
+        <td class="green-box"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="green-box"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="green-box"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="green-box"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="red-box">
+          <img src="./star.webp" alt="img-star" class="img-star" />
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="3" rowspan="3">
+          <img
+            src="./center.jpg"
+            alt="center"
+            id="center"
+            width="100%"
+            height="85vh"
+          />
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="blue-box">
+          <img src="./star.webp" alt="img-star" class="img-star" />
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="red-box"></td>
+        <td class="red-box"></td>
+        <td class="red-box"></td>
+        <td class="red-box"></td>
+        <td class="red-box"></td>
+        <td class="blue-box"></td>
+        <td class="blue-box"></td>
+        <td class="blue-box"></td>
+        <td class="blue-box"></td>
+        <td class="blue-box"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="red-box">
+          <img src="./star.webp" alt="img-star" class="img-star" />
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="blue-box">
+          <img src="./star.webp" alt="img-star" class="img-star" />
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="6" rowspan="6" id="yellow" align="middle">
+          <img src="./yellow.jpg" alt="red-image" class="call-image" />
+        </td>
+        <td></td>
+        <td class="yellow-box"></td>
+        <td></td>
+        <td colspan="6" rowspan="6" id="blue" align="middle">
+          <img src="./blue.jpg" alt="red-image" class="call-image" />
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="yellow-box"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="yellow-box"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="yellow-box"></td>
+        <td class="yellow-box">
+          <img src="./star.webp" alt="img-star" class="img-star" />
+        </td>
+      </tr>
+      <tr>
+        <td class="yellow-box">
+          <img src="./star.webp" alt="img-star" class="img-star" />
+        </td>
+        <td class="yellow-box"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
